@@ -1,0 +1,98 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.page-container {
+    display: flex; /*робить колонки однієї висоти автоматично*/
+	max-width: 980px;
+    max-width: 900px;
+    margin: 30px auto;
+    border: 5px solid grey;   /* рамка */
+    display: flex;
+    background-color: white;
+}
+.left-side {
+    width: 25%;
+    min-height: 950px;
+    background-color: #3a5e90;
+    padding: 20px; /* відступи всередині блоку */
+    color: white;
+}
+.right-side {
+    display: inline-block;
+	width: calc(75% - 6px);
+    height:950px;
+    padding: 20px; /* відступи всередині блоку */
+    line-height: 1.5;    
+}
+.avatar {
+	width: 150px;
+	height: 150px;
+    border-radius: 50%;
+	overflow: hidden;
+    margin: 20px auto; /* Центрування блоку */
+}
+.image {
+	display: inline-block;
+	width: 100%;
+}
+ul {
+    list-style: none;
+}
+.info { 
+    font-size: 15px;
+    color: white;
+}
+.info li {
+    margin-bottom: 15px;
+}
+.line {
+  border: none;
+  height: 1px;
+  background-color: white;
+  margin: 14px 0;
+}
+.interests{
+    margin-bottom: 6px;
+    font-size: 15px;
+    color: white;
+    line-height: 1.9;
+}
+.languages{
+    font-size: 15px;
+    color: white;
+}
+.languages li {
+    display: flex; /*для вирівнювання тому що елементи не вирівнюються по ширині*/
+    justify-content: space-between; /*лівий текст зліва, дата справа */
+    margin-bottom: 8px;
+}
+.left-block {
+  margin-top: 20px;
+}
+.line2 {
+  border: none;
+  height: 1px;
+  background-color: black;
+  margin: 20px 0;
+}
+.date {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+p {
+    font-size: 20px;
+}
+.date {
+    color: grey;
+    font-size: 13px;
+}
+.menu {
+    list-style: none;
+}
+.menu li {
+    display: inline-block;
+    margin-right: 15px;
+}
